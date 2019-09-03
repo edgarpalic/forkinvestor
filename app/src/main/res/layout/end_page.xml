@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/finalTextView"
+        android:layout_width="353dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="40dp"
+        android:text="Time is up! Your final score was:"
+        android:textAlignment="center"
+        android:textColor="#F8FFF1"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/finalScoreTextView"
+        android:layout_width="251dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#46A52D"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finalTextView" />
+
+    <TextView
+        android:id="@+id/finaltextView2"
+        android:layout_width="343dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:text="Do you wish to upload it to the scoreboard?"
+        android:textAlignment="center"
+        android:textColor="#F8FFF1"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finalScoreTextView" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="278dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="name/gamertag"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finaltextView2" />
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="280dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="#8BC34A"
+        android:fontFamily="@font/carter_one"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="280dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="#8BC34A"
+        android:fontFamily="@font/carter_one"
+        android:text="Play Again"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uploadButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

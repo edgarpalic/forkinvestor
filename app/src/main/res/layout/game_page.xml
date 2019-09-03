@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/countdownTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="60"
+        android:textColor="#F8FFF1"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pointsTextView"
+        android:layout_width="312dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="$60000"
+        android:textAlignment="center"
+        android:textColor="#F8FFF1"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/countdownTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/woodCostTextView"
+        android:layout_width="179dp"
+        android:layout_height="46dp"
+        android:text="$500"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buyWoodButton"
+        app:layout_constraintEnd_toEndOf="@+id/buyWoodButton"
+        app:layout_constraintStart_toStartOf="@+id/buyWoodButton"
+        app:layout_constraintTop_toBottomOf="@+id/woodInvestmentTextView" />
+
+    <TextView
+        android:id="@+id/woodInvestmentTextView"
+        android:layout_width="180dp"
+        android:layout_height="23dp"
+        android:text="Wood Forks 12"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/buyWoodButton"
+        app:layout_constraintStart_toStartOf="@+id/buyWoodButton"
+        app:layout_constraintTop_toTopOf="@+id/buyWoodButton" />
+
+    <Button
+        android:id="@+id/buyWoodButton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:alpha="0.25"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countdownTextView" />
+
+    <TextView
+        android:id="@+id/ironCostTextView"
+        android:layout_width="181dp"
+        android:layout_height="46dp"
+        android:text="$1500"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buyIronButton"
+        app:layout_constraintEnd_toEndOf="@+id/buyIronButton"
+        app:layout_constraintStart_toStartOf="@+id/buyIronButton"
+        app:layout_constraintTop_toBottomOf="@+id/ironInvestmentTextView" />
+
+    <TextView
+        android:id="@+id/ironInvestmentTextView"
+        android:layout_width="180dp"
+        android:layout_height="23dp"
+        android:text="Iron Forks 32"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/buyIronButton"
+        app:layout_constraintStart_toStartOf="@+id/buyIronButton"
+        app:layout_constraintTop_toTopOf="@+id/buyIronButton" />
+
+    <Button
+        android:id="@+id/buyIronButton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.25"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pointsTextView" />
+
+    <TextView
+        android:id="@+id/silverCostTextView"
+        android:layout_width="179dp"
+        android:layout_height="46dp"
+        android:text="$6500"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buySilverButton"
+        app:layout_constraintEnd_toEndOf="@+id/buySilverButton"
+        app:layout_constraintStart_toStartOf="@+id/buySilverButton"
+        app:layout_constraintTop_toBottomOf="@+id/silverInvestmentTextView" />
+
+    <TextView
+        android:id="@+id/silverInvestmentTextView"
+        android:layout_width="180dp"
+        android:layout_height="23dp"
+        android:text="Silver Forks 52"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/buySilverButton"
+        app:layout_constraintStart_toStartOf="@+id/buySilverButton"
+        app:layout_constraintTop_toTopOf="@+id/buySilverButton" />
+
+    <Button
+        android:id="@+id/buySilverButton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:alpha="0.25"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/woodCostTextView" />
+
+    <TextView
+        android:id="@+id/goldCostTextView"
+        android:layout_width="182dp"
+        android:layout_height="48dp"
+        android:text="$16500"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/buyGoldButton"
+        app:layout_constraintEnd_toEndOf="@+id/buyGoldButton"
+        app:layout_constraintStart_toStartOf="@+id/buyGoldButton"
+        app:layout_constraintTop_toBottomOf="@+id/goldInvestmentTextView" />
+
+    <TextView
+        android:id="@+id/goldInvestmentTextView"
+        android:layout_width="180dp"
+        android:layout_height="23dp"
+        android:text="Gold Forks 32"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/buyGoldButton"
+        app:layout_constraintStart_toStartOf="@+id/buyGoldButton"
+        app:layout_constraintTop_toTopOf="@+id/buyGoldButton" />
+
+    <Button
+        android:id="@+id/buyGoldButton"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.25"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buyIronButton" />
+
+    <Button
+        android:id="@+id/workButton"
+        android:layout_width="378dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#92FFFDFD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/systemTextView" />
+
+    <TextView
+        android:id="@+id/systemTextView"
+        android:layout_width="379dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="#EBEBEB"
+        android:text="System Text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buyGoldButton" />
+
+    <TextView
+        android:id="@+id/clickTextView"
+        android:layout_width="375dp"
+        android:layout_height="108dp"
+        android:text="$67040"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="42sp"
+        app:layout_constraintBottom_toBottomOf="@+id/workButton"
+        app:layout_constraintEnd_toEndOf="@+id/workButton"
+        app:layout_constraintStart_toStartOf="@+id/workButton"
+        app:layout_constraintTop_toTopOf="@+id/workButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
