@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
@@ -7,7 +8,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="53dp"
-        android:background="#CAF5C5">
+        android:background="#D8D8D8">
 
         <TextView
             android:id="@+id/textViewUser"
@@ -20,8 +21,10 @@
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:fontFamily="@font/aldrich"
-            android:text="TextView"
-            android:textSize="18sp" />
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textSize="18sp"
+            tools:text="usernameLabel" />
 
         <TextView
             android:id="@+id/textViewScore"
@@ -34,7 +37,8 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="15dp"
             android:fontFamily="@font/aldrich"
-            android:text="TextView"
-            android:textSize="18sp" />
+            android:textColor="#4CAF50"
+            android:textSize="18sp"
+            tools:text="scoreLabel" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

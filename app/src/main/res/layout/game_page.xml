@@ -12,11 +12,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="60"
         android:textColor="#F8FFF1"
         android:textSize="60sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="60" />
 
     <TextView
         android:id="@+id/pointsTextView"
@@ -24,35 +24,35 @@
         android:layout_height="81dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="$60000"
         android:textAlignment="center"
         android:textColor="#F8FFF1"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/countdownTextView"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="$60000" />
 
     <TextView
         android:id="@+id/woodCostTextView"
         android:layout_width="179dp"
         android:layout_height="46dp"
-        android:text="$500"
         android:textAlignment="center"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="@+id/buyWoodButton"
         app:layout_constraintEnd_toEndOf="@+id/buyWoodButton"
         app:layout_constraintStart_toStartOf="@+id/buyWoodButton"
-        app:layout_constraintTop_toBottomOf="@+id/woodInvestmentTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/woodInvestmentTextView"
+        tools:text="$500" />
 
     <TextView
         android:id="@+id/woodInvestmentTextView"
         android:layout_width="180dp"
         android:layout_height="23dp"
-        android:text="Wood Forks 12"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/buyWoodButton"
         app:layout_constraintStart_toStartOf="@+id/buyWoodButton"
-        app:layout_constraintTop_toTopOf="@+id/buyWoodButton" />
+        app:layout_constraintTop_toTopOf="@+id/buyWoodButton"
+        tools:text="Wood Forks 12" />
 
     <Button
         android:id="@+id/buyWoodButton"
@@ -69,23 +69,23 @@
         android:id="@+id/ironCostTextView"
         android:layout_width="181dp"
         android:layout_height="46dp"
-        android:text="$1500"
         android:textAlignment="center"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="@+id/buyIronButton"
         app:layout_constraintEnd_toEndOf="@+id/buyIronButton"
         app:layout_constraintStart_toStartOf="@+id/buyIronButton"
-        app:layout_constraintTop_toBottomOf="@+id/ironInvestmentTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/ironInvestmentTextView"
+        tools:text="$1500" />
 
     <TextView
         android:id="@+id/ironInvestmentTextView"
         android:layout_width="180dp"
         android:layout_height="23dp"
-        android:text="Iron Forks 32"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/buyIronButton"
         app:layout_constraintStart_toStartOf="@+id/buyIronButton"
-        app:layout_constraintTop_toTopOf="@+id/buyIronButton" />
+        app:layout_constraintTop_toTopOf="@+id/buyIronButton"
+        tools:text="Iron Forks 32" />
 
     <Button
         android:id="@+id/buyIronButton"
@@ -102,23 +102,23 @@
         android:id="@+id/silverCostTextView"
         android:layout_width="179dp"
         android:layout_height="46dp"
-        android:text="$6500"
         android:textAlignment="center"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="@+id/buySilverButton"
         app:layout_constraintEnd_toEndOf="@+id/buySilverButton"
         app:layout_constraintStart_toStartOf="@+id/buySilverButton"
-        app:layout_constraintTop_toBottomOf="@+id/silverInvestmentTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/silverInvestmentTextView"
+        tools:text="$6500" />
 
     <TextView
         android:id="@+id/silverInvestmentTextView"
         android:layout_width="180dp"
         android:layout_height="23dp"
-        android:text="Silver Forks 52"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/buySilverButton"
         app:layout_constraintStart_toStartOf="@+id/buySilverButton"
-        app:layout_constraintTop_toTopOf="@+id/buySilverButton" />
+        app:layout_constraintTop_toTopOf="@+id/buySilverButton"
+        tools:text="Silver Forks 52" />
 
     <Button
         android:id="@+id/buySilverButton"
@@ -135,23 +135,23 @@
         android:id="@+id/goldCostTextView"
         android:layout_width="182dp"
         android:layout_height="48dp"
-        android:text="$16500"
         android:textAlignment="center"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="@+id/buyGoldButton"
         app:layout_constraintEnd_toEndOf="@+id/buyGoldButton"
         app:layout_constraintStart_toStartOf="@+id/buyGoldButton"
-        app:layout_constraintTop_toBottomOf="@+id/goldInvestmentTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/goldInvestmentTextView"
+        tools:text="$16500" />
 
     <TextView
         android:id="@+id/goldInvestmentTextView"
         android:layout_width="180dp"
         android:layout_height="23dp"
-        android:text="Gold Forks 32"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/buyGoldButton"
         app:layout_constraintStart_toStartOf="@+id/buyGoldButton"
-        app:layout_constraintTop_toTopOf="@+id/buyGoldButton" />
+        app:layout_constraintTop_toTopOf="@+id/buyGoldButton"
+        tools:text="Gold Forks 32" />
 
     <Button
         android:id="@+id/buyGoldButton"
@@ -166,12 +166,12 @@
 
     <Button
         android:id="@+id/workButton"
-        android:layout_width="378dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="8dp"
         android:background="#92FFFDFD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -180,29 +180,29 @@
 
     <TextView
         android:id="@+id/systemTextView"
-        android:layout_width="379dp"
+        android:layout_width="0dp"
         android:layout_height="22dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:background="#EBEBEB"
-        android:text="System Text"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buyGoldButton" />
+        app:layout_constraintTop_toBottomOf="@+id/buyGoldButton"
+        tools:text="System Text" />
 
     <TextView
         android:id="@+id/clickTextView"
         android:layout_width="375dp"
         android:layout_height="108dp"
-        android:text="$67040"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="42sp"
         app:layout_constraintBottom_toBottomOf="@+id/workButton"
         app:layout_constraintEnd_toEndOf="@+id/workButton"
         app:layout_constraintStart_toStartOf="@+id/workButton"
-        app:layout_constraintTop_toTopOf="@+id/workButton" />
+        app:layout_constraintTop_toTopOf="@+id/workButton"
+        tools:text="$67040" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
