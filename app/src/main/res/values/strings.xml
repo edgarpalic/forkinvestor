@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Fork Investor</string>
     <string name="start_game">Start Game</string>
+    <string name="your_final_score">Time is up! Your final score was:</string>
+    <string name="upload_question">Do you wish to upload it to the scoreboard?</string>
+    <string name="name_gamertag">name/gamertag</string>
+    <string name="submit">Submit</string>
+    <string name="play_again">Play Again</string>
+
+    <color name="WHITE">#E0E0E0</color>
+    <color name="GREEN">#59FF43</color>
 </resources>

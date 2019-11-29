@@ -37,6 +37,7 @@
         android:layout_width="179dp"
         android:layout_height="46dp"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="@+id/buyWoodButton"
         app:layout_constraintEnd_toEndOf="@+id/buyWoodButton"
@@ -60,8 +61,8 @@
         android:layout_height="70dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
-        android:alpha="0.25"
-        android:background="#FFFFFF"
+        android:alpha="0.20"
+        android:background="#E0E0E0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/countdownTextView" />
 
@@ -70,6 +71,7 @@
         android:layout_width="181dp"
         android:layout_height="46dp"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="@+id/buyIronButton"
         app:layout_constraintEnd_toEndOf="@+id/buyIronButton"
@@ -93,8 +95,8 @@
         android:layout_height="70dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="16dp"
-        android:alpha="0.25"
-        android:background="#FFFFFF"
+        android:alpha="0.20"
+        android:background="#E0E0E0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pointsTextView" />
 
@@ -103,6 +105,7 @@
         android:layout_width="179dp"
         android:layout_height="46dp"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="@+id/buySilverButton"
         app:layout_constraintEnd_toEndOf="@+id/buySilverButton"
@@ -126,8 +129,8 @@
         android:layout_height="70dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
-        android:alpha="0.25"
-        android:background="#FFFFFF"
+        android:alpha="0.20"
+        android:background="#E0E0E0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/woodCostTextView" />
 
@@ -136,6 +139,7 @@
         android:layout_width="182dp"
         android:layout_height="48dp"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="@+id/buyGoldButton"
         app:layout_constraintEnd_toEndOf="@+id/buyGoldButton"
@@ -159,8 +163,8 @@
         android:layout_height="70dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="16dp"
-        android:alpha="0.25"
-        android:background="#FFFFFF"
+        android:alpha="0.20"
+        android:background="#E0E0E0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buyIronButton" />
 
@@ -172,7 +176,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
-        android:background="#92FFFDFD"
+        android:background="#5B6DCC4A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
